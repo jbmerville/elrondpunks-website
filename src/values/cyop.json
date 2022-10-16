@@ -1,0 +1,1709 @@
+{
+  "man": {
+    "SKIN": {
+      "categoryName": "SKIN",
+      "attributes": {
+        "White": {
+          "name": "White",
+          "rarity": "special",
+          "totalCount": 5,
+          "category": "SKIN",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-skin-white.png"
+            }
+          ]
+        },
+        "Orange": {
+          "name": "Orange",
+          "rarity": "super",
+          "totalCount": 15,
+          "category": "SKIN",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-skin-orange.png"
+            }
+          ]
+        },
+        "Black": {
+          "name": "Black",
+          "rarity": "legendary",
+          "totalCount": 10,
+          "category": "SKIN",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-skin-black.png"
+            }
+          ]
+        }
+      }
+    },
+    "ACCESSORIES": {
+      "categoryName": "ACCESSORIES",
+      "attributes": {
+        "Patricks Hat": {
+          "name": "Patricks Hat",
+          "rarity": "good",
+          "totalCount": 40,
+          "category": "ACCESSORIES",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-accessories-patricks hat.png"
+            }
+          ]
+        },
+        "Wizard Scar": {
+          "name": "Wizard Scar",
+          "rarity": "special",
+          "totalCount": 5,
+          "category": "ACCESSORIES",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-accessories-wizard scar.png"
+            }
+          ]
+        },
+        "Ski Mask": {
+          "name": "Ski Mask",
+          "rarity": "good",
+          "totalCount": 40,
+          "category": "ACCESSORIES",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-accessories-ski mask.png"
+            }
+          ]
+        },
+        "Cursed Wizard": {
+          "name": "Cursed Wizard",
+          "rarity": "good",
+          "totalCount": 40,
+          "category": "ACCESSORIES",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-accessories-cursed wizard.png"
+            }
+          ]
+        },
+        "Ermite": {
+          "name": "Ermite",
+          "rarity": "legendary",
+          "totalCount": 10,
+          "category": "ACCESSORIES",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-accessories-ermite.png"
+            }
+          ]
+        },
+        "Earbuds": {
+          "name": "Earbuds",
+          "rarity": "special",
+          "totalCount": 5,
+          "category": "ACCESSORIES",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-accessories-earbuds.png"
+            }
+          ]
+        },
+        "Be\u0301Ret": {
+          "name": "Be\u0301Ret",
+          "rarity": "super",
+          "totalCount": 15,
+          "category": "ACCESSORIES",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-accessories-be\u0301ret.png"
+            }
+          ]
+        },
+        "Piccolot Turban": {
+          "name": "Piccolot Turban",
+          "rarity": "rare",
+          "totalCount": 25,
+          "category": "ACCESSORIES",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-accessories-piccolot turban.png"
+            }
+          ]
+        },
+        "Hoodie": {
+          "name": "Hoodie",
+          "rarity": "good",
+          "totalCount": 40,
+          "category": "ACCESSORIES",
+          "colors": [
+            {
+              "color": "purple",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-accessories-hoodie-purple.png"
+            },
+            {
+              "color": "blue",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-accessories-hoodie-blue.png"
+            },
+            {
+              "color": "black",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-accessories-hoodie-black.png"
+            },
+            {
+              "color": "grey",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-accessories-hoodie-grey.png"
+            },
+            {
+              "color": "green",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-accessories-hoodie-green.png"
+            },
+            {
+              "color": "yellow",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-accessories-hoodie-yellow.png"
+            },
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-accessories-hoodie-default.png"
+            },
+            {
+              "color": "rouge",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-accessories-hoodie-rouge.png"
+            }
+          ]
+        },
+        "Revolution Bonnet": {
+          "name": "Revolution Bonnet",
+          "rarity": "legendary",
+          "totalCount": 10,
+          "category": "ACCESSORIES",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-accessories-revolution bonnet.png"
+            }
+          ]
+        },
+        "Sailor Hat": {
+          "name": "Sailor Hat",
+          "rarity": "good",
+          "totalCount": 40,
+          "category": "ACCESSORIES",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-accessories-sailor hat.png"
+            }
+          ]
+        },
+        "Soldier Helmet": {
+          "name": "Soldier Helmet",
+          "rarity": "legendary",
+          "totalCount": 10,
+          "category": "ACCESSORIES",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-accessories-soldier helmet.png"
+            }
+          ]
+        },
+        "Hero Mask": {
+          "name": "Hero Mask",
+          "rarity": "rare",
+          "totalCount": 25,
+          "category": "ACCESSORIES",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-accessories-hero mask.png"
+            }
+          ]
+        },
+        "Blank Mask": {
+          "name": "Blank Mask",
+          "rarity": "common",
+          "totalCount": 100,
+          "category": "ACCESSORIES",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-accessories-blank mask.png"
+            }
+          ]
+        },
+        "Venezia": {
+          "name": "Venezia",
+          "rarity": "special",
+          "totalCount": 5,
+          "category": "ACCESSORIES",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-accessories-venezia.png"
+            }
+          ]
+        },
+        "Blue Gangster": {
+          "name": "Blue Gangster",
+          "rarity": "super",
+          "totalCount": 15,
+          "category": "ACCESSORIES",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-accessories-blue gangster.png"
+            }
+          ]
+        },
+        "Grey Mask": {
+          "name": "Grey Mask",
+          "rarity": "special",
+          "totalCount": 5,
+          "category": "ACCESSORIES",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-accessories-grey mask.png"
+            }
+          ]
+        },
+        "Nautilus": {
+          "name": "Nautilus",
+          "rarity": "rare",
+          "totalCount": 25,
+          "category": "ACCESSORIES",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-accessories-nautilus.png"
+            }
+          ]
+        },
+        "Apache": {
+          "name": "Apache",
+          "rarity": "common",
+          "totalCount": 100,
+          "category": "ACCESSORIES",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-accessories-apache.png"
+            }
+          ]
+        },
+        "Blank Mask Negative": {
+          "name": "Blank Mask Negative",
+          "rarity": "super",
+          "totalCount": 15,
+          "category": "ACCESSORIES",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-accessories-blank mask negative.png"
+            }
+          ]
+        },
+        "Too Smart": {
+          "name": "Too Smart",
+          "rarity": "good",
+          "totalCount": 40,
+          "category": "ACCESSORIES",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-accessories-too smart.png"
+            }
+          ]
+        },
+        "King Crown": {
+          "name": "King Crown",
+          "rarity": "legendary",
+          "totalCount": 10,
+          "category": "ACCESSORIES",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-accessories-king crown.png"
+            }
+          ]
+        },
+        "Im Okay": {
+          "name": "Im Okay",
+          "rarity": "common",
+          "totalCount": 100,
+          "category": "ACCESSORIES",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-accessories-im okay.png"
+            }
+          ]
+        },
+        "Big Earring": {
+          "name": "Big Earring",
+          "rarity": "super",
+          "totalCount": 15,
+          "category": "ACCESSORIES",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-accessories-big earring.png"
+            }
+          ]
+        },
+        "Nurse": {
+          "name": "Nurse",
+          "rarity": "common",
+          "totalCount": 100,
+          "category": "ACCESSORIES",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-accessories-nurse.png"
+            }
+          ]
+        },
+        "Oracle": {
+          "name": "Oracle",
+          "rarity": "legendary",
+          "totalCount": 10,
+          "category": "ACCESSORIES",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-accessories-oracle.png"
+            }
+          ]
+        },
+        "Froggy": {
+          "name": "Froggy",
+          "rarity": "good",
+          "totalCount": 40,
+          "category": "ACCESSORIES",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-accessories-froggy.png"
+            }
+          ]
+        },
+        "Egg": {
+          "name": "Egg",
+          "rarity": "legendary",
+          "totalCount": 10,
+          "category": "ACCESSORIES",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-accessories-egg.png"
+            }
+          ]
+        }
+      }
+    },
+    "FACIAL_HAIR": {
+      "categoryName": "FACIAL HAIR",
+      "attributes": {
+        "Gentlemen Moustache": {
+          "name": "Gentlemen Moustache",
+          "rarity": "rare",
+          "totalCount": 25,
+          "category": "FACIAL_HAIR",
+          "colors": [
+            {
+              "color": "blond",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-facial hair-gentlemen moustache-blond.png"
+            },
+            {
+              "color": "grey",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-facial hair-gentlemen moustache-grey.png"
+            },
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-facial hair-gentlemen moustache-default.png"
+            },
+            {
+              "color": "red",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-facial hair-gentlemen moustache-red.png"
+            },
+            {
+              "color": "purple",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-facial hair-gentlemen moustache-purple.png"
+            },
+            {
+              "color": "green",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-facial hair-gentlemen moustache-green.png"
+            },
+            {
+              "color": "blue",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-facial hair-gentlemen moustache-blue.png"
+            }
+          ]
+        },
+        "Big Moustache": {
+          "name": "Big Moustache",
+          "rarity": "good",
+          "totalCount": 40,
+          "category": "FACIAL_HAIR",
+          "colors": [
+            {
+              "color": "blue",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-facial hair-big moustache-blue.png"
+            },
+            {
+              "color": "red",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-facial hair-big moustache-red.png"
+            },
+            {
+              "color": "green",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-facial hair-big moustache-green.png"
+            },
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-facial hair-big moustache-default.png"
+            },
+            {
+              "color": "purple",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-facial hair-big moustache-purple.png"
+            },
+            {
+              "color": "blond",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-facial hair-big moustache-blond.png"
+            },
+            {
+              "color": "grey",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-facial hair-big moustache-grey.png"
+            }
+          ]
+        },
+        "Banana Beard": {
+          "name": "Banana Beard",
+          "rarity": "rare",
+          "totalCount": 25,
+          "category": "FACIAL_HAIR",
+          "colors": [
+            {
+              "color": "blond",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-facial hair-banana beard-blond.png"
+            },
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-facial hair-banana beard-default.png"
+            },
+            {
+              "color": "grey",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-facial hair-banana beard-grey.png"
+            },
+            {
+              "color": "red",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-facial hair-banana beard-red.png"
+            },
+            {
+              "color": "purple",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-facial hair-banana beard-purple.png"
+            },
+            {
+              "color": "blue",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-facial hair-banana beard-blue.png"
+            },
+            {
+              "color": "green",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-facial hair-banana beard-green.png"
+            }
+          ]
+        },
+        "Chintrap": {
+          "name": "Chintrap",
+          "rarity": "special",
+          "totalCount": 5,
+          "category": "FACIAL_HAIR",
+          "colors": [
+            {
+              "color": "red",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-facial hair-chintrap-red.png"
+            },
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-facial hair-chintrap-default.png"
+            },
+            {
+              "color": "blue",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-facial hair-chintrap-blue.png"
+            },
+            {
+              "color": "green",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-facial hair-chintrap-green.png"
+            },
+            {
+              "color": "blond",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-facial hair-chintrap-blond.png"
+            },
+            {
+              "color": "grey",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-facial hair-chintrap-grey.png"
+            },
+            {
+              "color": "purple",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-facial hair-chintrap-purple.png"
+            }
+          ]
+        },
+        "Neckbeard": {
+          "name": "Neckbeard",
+          "rarity": "good",
+          "totalCount": 40,
+          "category": "FACIAL_HAIR",
+          "colors": [
+            {
+              "color": "purple",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-facial hair-neckbeard-purple.png"
+            },
+            {
+              "color": "green",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-facial hair-neckbeard-green.png"
+            },
+            {
+              "color": "grey",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-facial hair-neckbeard-grey.png"
+            },
+            {
+              "color": "blond",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-facial hair-neckbeard-blond.png"
+            },
+            {
+              "color": "red",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-facial hair-neckbeard-red.png"
+            },
+            {
+              "color": "blue",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-facial hair-neckbeard-blue.png"
+            },
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-facial hair-neckbeard-default.png"
+            }
+          ]
+        },
+        "Side Burns": {
+          "name": "Side Burns",
+          "rarity": "common",
+          "totalCount": 100,
+          "category": "FACIAL_HAIR",
+          "colors": [
+            {
+              "color": "purple",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-facial hair-side burns-purple.png"
+            },
+            {
+              "color": "grey",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-facial hair-side burns-grey.png"
+            },
+            {
+              "color": "blond",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-facial hair-side burns-blond.png"
+            },
+            {
+              "color": "green",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-facial hair-side burns-green.png"
+            },
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-facial hair-side burns-default.png"
+            },
+            {
+              "color": "blue",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-facial hair-side burns-blue.png"
+            },
+            {
+              "color": "red",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-facial hair-side burns-red.png"
+            }
+          ]
+        }
+      }
+    },
+    "FACIAL_CHARACTERISTICS": {
+      "categoryName": "FACIAL CHARACTERISTICS",
+      "attributes": {
+        "Black Fat Neck": {
+          "name": "Black Fat Neck",
+          "rarity": "super",
+          "totalCount": 15,
+          "category": "FACIAL_CHARACTERISTICS",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-facial characteristics-black fat neck.png"
+            }
+          ]
+        },
+        "Orange Fat Neck": {
+          "name": "Orange Fat Neck",
+          "rarity": "legendary",
+          "totalCount": 10,
+          "category": "FACIAL_CHARACTERISTICS",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-facial characteristics-orange fat neck.png"
+            }
+          ]
+        },
+        "White Fat Neck": {
+          "name": "White Fat Neck",
+          "rarity": "good",
+          "totalCount": 40,
+          "category": "FACIAL_CHARACTERISTICS",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-facial characteristics-white fat neck.png"
+            }
+          ]
+        }
+      }
+    },
+    "NOSE": {
+      "categoryName": "NOSE",
+      "attributes": {
+        "Straight Nose": {
+          "name": "Straight Nose",
+          "rarity": "legendary",
+          "totalCount": 10,
+          "category": "NOSE",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-nose-straight nose.png"
+            }
+          ]
+        },
+        "Long Nose": {
+          "name": "Long Nose",
+          "rarity": "rare",
+          "totalCount": 25,
+          "category": "NOSE",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-nose-long nose.png"
+            }
+          ]
+        },
+        "Standard Nose": {
+          "name": "Standard Nose",
+          "rarity": "common",
+          "totalCount": 100,
+          "category": "NOSE",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-nose-standard nose.png"
+            }
+          ]
+        },
+        "Pointy Nose": {
+          "name": "Pointy Nose",
+          "rarity": "common",
+          "totalCount": 100,
+          "category": "NOSE",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-nose-pointy nose.png"
+            }
+          ]
+        },
+        "Vicious Nose": {
+          "name": "Vicious Nose",
+          "rarity": "super",
+          "totalCount": 15,
+          "category": "NOSE",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-nose-vicious nose.png"
+            }
+          ]
+        },
+        "Big Nose": {
+          "name": "Big Nose",
+          "rarity": "common",
+          "totalCount": 100,
+          "category": "NOSE",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-nose-big nose.png"
+            }
+          ]
+        }
+      }
+    },
+    "MOUTH": {
+      "categoryName": "MOUTH",
+      "attributes": {
+        "Standard Mouth": {
+          "name": "Standard Mouth",
+          "rarity": "special",
+          "totalCount": 5,
+          "category": "MOUTH",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-mouth-standard mouth.png"
+            }
+          ]
+        },
+        "Smile": {
+          "name": "Smile",
+          "rarity": "super",
+          "totalCount": 15,
+          "category": "MOUTH",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-mouth-smile.png"
+            }
+          ]
+        },
+        "Tongue Out": {
+          "name": "Tongue Out",
+          "rarity": "good",
+          "totalCount": 40,
+          "category": "MOUTH",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-mouth-tongue out.png"
+            }
+          ]
+        },
+        "Frown": {
+          "name": "Frown",
+          "rarity": "common",
+          "totalCount": 100,
+          "category": "MOUTH",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-mouth-frown.png"
+            }
+          ]
+        },
+        "Smirk": {
+          "name": "Smirk",
+          "rarity": "special",
+          "totalCount": 5,
+          "category": "MOUTH",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-mouth-smirk.png"
+            }
+          ]
+        },
+        "Sad": {
+          "name": "Sad",
+          "rarity": "super",
+          "totalCount": 15,
+          "category": "MOUTH",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-mouth-sad.png"
+            }
+          ]
+        },
+        "Shocked": {
+          "name": "Shocked",
+          "rarity": "special",
+          "totalCount": 5,
+          "category": "MOUTH",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-mouth-shocked.png"
+            }
+          ]
+        },
+        "Point Mouth": {
+          "name": "Point Mouth",
+          "rarity": "special",
+          "totalCount": 5,
+          "category": "MOUTH",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-mouth-point mouth.png"
+            }
+          ]
+        },
+        "Showing Teeth": {
+          "name": "Showing Teeth",
+          "rarity": "legendary",
+          "totalCount": 10,
+          "category": "MOUTH",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-mouth-showing teeth.png"
+            }
+          ]
+        }
+      }
+    },
+    "GLASSES": {
+      "categoryName": "GLASSES",
+      "attributes": {
+        "Nerd Glasses": {
+          "name": "Nerd Glasses",
+          "rarity": "rare",
+          "totalCount": 25,
+          "category": "GLASSES",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-glasses-nerd glasses-default.png"
+            },
+            {
+              "color": "orange",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-glasses-nerd glasses-orange.png"
+            }
+          ]
+        },
+        "Laser Vision": {
+          "name": "Laser Vision",
+          "rarity": "special",
+          "totalCount": 5,
+          "category": "GLASSES",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-glasses-laser vision.png"
+            }
+          ]
+        },
+        "Round Glasses": {
+          "name": "Round Glasses",
+          "rarity": "rare",
+          "totalCount": 25,
+          "category": "GLASSES",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-glasses-round glasses-default.png"
+            },
+            {
+              "color": "red",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-glasses-round glasses-red.png"
+            }
+          ]
+        },
+        "Visor Glasses": {
+          "name": "Visor Glasses",
+          "rarity": "super",
+          "totalCount": 15,
+          "category": "GLASSES",
+          "colors": [
+            {
+              "color": "pink",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-glasses-visor glasses-pink.png"
+            },
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-glasses-visor glasses-default.png"
+            }
+          ]
+        },
+        "Old Glasses": {
+          "name": "Old Glasses",
+          "rarity": "legendary",
+          "totalCount": 10,
+          "category": "GLASSES",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-glasses-old glasses-default.png"
+            },
+            {
+              "color": "red",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-glasses-old glasses-red.png"
+            }
+          ]
+        },
+        "Light Glasses": {
+          "name": "Light Glasses",
+          "rarity": "good",
+          "totalCount": 40,
+          "category": "GLASSES",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-glasses-light glasses-default.png"
+            },
+            {
+              "color": "blue",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-glasses-light glasses-blue.png"
+            }
+          ]
+        },
+        "Techie": {
+          "name": "Techie",
+          "rarity": "rare",
+          "totalCount": 25,
+          "category": "GLASSES",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-glasses-techie.png"
+            }
+          ]
+        },
+        "Rich Glasses": {
+          "name": "Rich Glasses",
+          "rarity": "legendary",
+          "totalCount": 10,
+          "category": "GLASSES",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-glasses-rich glasses.png"
+            }
+          ]
+        },
+        "Leon Glasses": {
+          "name": "Leon Glasses",
+          "rarity": "rare",
+          "totalCount": 25,
+          "category": "GLASSES",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-glasses-leon glasses.png"
+            }
+          ]
+        },
+        "Miami Glasses": {
+          "name": "Miami Glasses",
+          "rarity": "good",
+          "totalCount": 40,
+          "category": "GLASSES",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-glasses-miami glasses.png"
+            }
+          ]
+        },
+        "Fashion Glasses": {
+          "name": "Fashion Glasses",
+          "rarity": "rare",
+          "totalCount": 25,
+          "category": "GLASSES",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-glasses-fashion glasses.png"
+            }
+          ]
+        },
+        "Night Vision": {
+          "name": "Night Vision",
+          "rarity": "special",
+          "totalCount": 5,
+          "category": "GLASSES",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-glasses-night vision.png"
+            }
+          ]
+        }
+      }
+    },
+    "EYES": {
+      "categoryName": "EYES",
+      "attributes": {
+        "Shocked Look": {
+          "name": "Shocked Look",
+          "rarity": "legendary",
+          "totalCount": 10,
+          "category": "EYES",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-eyes-shocked look.png"
+            }
+          ]
+        },
+        "Standard White": {
+          "name": "Standard White",
+          "rarity": "common",
+          "totalCount": 100,
+          "category": "EYES",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-eyes-standard white.png"
+            }
+          ]
+        },
+        "Lazy Eyes (Right)": {
+          "name": "Lazy Eyes (Right)",
+          "rarity": "common",
+          "totalCount": 100,
+          "category": "EYES",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-eyes-lazy eyes (right).png"
+            }
+          ]
+        },
+        "Jaded Look": {
+          "name": "Jaded Look",
+          "rarity": "special",
+          "totalCount": 5,
+          "category": "EYES",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-eyes-jaded look.png"
+            }
+          ]
+        },
+        "Jaded Thin Eyes": {
+          "name": "Jaded Thin Eyes",
+          "rarity": "common",
+          "totalCount": 100,
+          "category": "EYES",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-eyes-jaded thin eyes.png"
+            }
+          ]
+        },
+        "Very Angry Look": {
+          "name": "Very Angry Look",
+          "rarity": "super",
+          "totalCount": 15,
+          "category": "EYES",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-eyes-very angry look.png"
+            }
+          ]
+        },
+        "Closed Eyes": {
+          "name": "Closed Eyes",
+          "rarity": "rare",
+          "totalCount": 25,
+          "category": "EYES",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-eyes-closed eyes.png"
+            }
+          ]
+        },
+        "Standard Orange": {
+          "name": "Standard Orange",
+          "rarity": "legendary",
+          "totalCount": 10,
+          "category": "EYES",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-eyes-standard orange.png"
+            }
+          ]
+        },
+        "Derp": {
+          "name": "Derp",
+          "rarity": "special",
+          "totalCount": 5,
+          "category": "EYES",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-eyes-derp.png"
+            }
+          ]
+        },
+        "Standard Black": {
+          "name": "Standard Black",
+          "rarity": "rare",
+          "totalCount": 25,
+          "category": "EYES",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-eyes-standard black.png"
+            }
+          ]
+        },
+        "Empty Look": {
+          "name": "Empty Look",
+          "rarity": "good",
+          "totalCount": 40,
+          "category": "EYES",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-eyes-empty look.png"
+            }
+          ]
+        },
+        "Angry Look": {
+          "name": "Angry Look",
+          "rarity": "special",
+          "totalCount": 5,
+          "category": "EYES",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-eyes-angry look.png"
+            }
+          ]
+        },
+        "Weird Look": {
+          "name": "Weird Look",
+          "rarity": "common",
+          "totalCount": 100,
+          "category": "EYES",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-eyes-weird look.png"
+            }
+          ]
+        },
+        "Lazy Eyes (Left)": {
+          "name": "Lazy Eyes (Left)",
+          "rarity": "rare",
+          "totalCount": 25,
+          "category": "EYES",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-eyes-lazy eyes (left).png"
+            }
+          ]
+        },
+        "Small Eyes": {
+          "name": "Small Eyes",
+          "rarity": "special",
+          "totalCount": 5,
+          "category": "EYES",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-eyes-small eyes.png"
+            }
+          ]
+        },
+        "Thin Eyes": {
+          "name": "Thin Eyes",
+          "rarity": "legendary",
+          "totalCount": 10,
+          "category": "EYES",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-eyes-thin eyes.png"
+            }
+          ]
+        }
+      }
+    },
+    "HAIR": {
+      "categoryName": "HAIR",
+      "attributes": {
+        "Baby Hair": {
+          "name": "Baby Hair",
+          "rarity": "special",
+          "totalCount": 5,
+          "category": "HAIR",
+          "colors": [
+            {
+              "color": "black",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-hair-baby hair-black.png"
+            },
+            {
+              "color": "blond",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-hair-baby hair-blond.png"
+            },
+            {
+              "color": "red",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-hair-baby hair-red.png"
+            },
+            {
+              "color": "blue",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-hair-baby hair-blue.png"
+            },
+            {
+              "color": "grey",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-hair-baby hair-grey.png"
+            },
+            {
+              "color": "purple",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-hair-baby hair-purple.png"
+            },
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-hair-baby hair-default.png"
+            },
+            {
+              "color": "green",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-hair-baby hair-green.png"
+            }
+          ]
+        },
+        "Game Shop Haircut": {
+          "name": "Game Shop Haircut",
+          "rarity": "rare",
+          "totalCount": 25,
+          "category": "HAIR",
+          "colors": [
+            {
+              "color": "grey(1)",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-hair-game shop haircut-grey(1).png"
+            },
+            {
+              "color": "blond",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-hair-game shop haircut-blond.png"
+            },
+            {
+              "color": "grey",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-hair-game shop haircut-grey.png"
+            },
+            {
+              "color": "red",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-hair-game shop haircut-red.png"
+            },
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-hair-game shop haircut-default.png"
+            },
+            {
+              "color": "green",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-hair-game shop haircut-green.png"
+            },
+            {
+              "color": "blue",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-hair-game shop haircut-blue.png"
+            }
+          ]
+        },
+        "Strong Haircut": {
+          "name": "Strong Haircut",
+          "rarity": "rare",
+          "totalCount": 25,
+          "category": "HAIR",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-hair-strong haircut-default.png"
+            }
+          ]
+        },
+        "Crete Iroquoise": {
+          "name": "Crete Iroquoise",
+          "rarity": "common",
+          "totalCount": 100,
+          "category": "HAIR",
+          "colors": [
+            {
+              "color": "red",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-hair-crete iroquoise-red.png"
+            },
+            {
+              "color": "purple",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-hair-crete iroquoise-purple.png"
+            },
+            {
+              "color": "blond",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-hair-crete iroquoise-blond.png"
+            },
+            {
+              "color": "blue",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-hair-crete iroquoise-blue.png"
+            },
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-hair-crete iroquoise-default.png"
+            },
+            {
+              "color": "grey",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-hair-crete iroquoise-grey.png"
+            },
+            {
+              "color": "green",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-hair-crete iroquoise-green.png"
+            }
+          ]
+        },
+        "Logan Haircut": {
+          "name": "Logan Haircut",
+          "rarity": "rare",
+          "totalCount": 25,
+          "category": "HAIR",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-hair-logan haircut-default.png"
+            }
+          ]
+        },
+        "Loupette": {
+          "name": "Loupette",
+          "rarity": "special",
+          "totalCount": 5,
+          "category": "HAIR",
+          "colors": [
+            {
+              "color": "purple",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-hair-loupette-purple.png"
+            },
+            {
+              "color": "green",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-hair-loupette-green.png"
+            },
+            {
+              "color": "blue",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-hair-loupette-blue.png"
+            },
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-hair-loupette-default.png"
+            },
+            {
+              "color": "blond",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-hair-loupette-blond.png"
+            },
+            {
+              "color": "grey",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-hair-loupette-grey.png"
+            },
+            {
+              "color": "red",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-hair-loupette-red.png"
+            }
+          ]
+        },
+        "Long Blond Hair": {
+          "name": "Long Blond Hair",
+          "rarity": "legendary",
+          "totalCount": 10,
+          "category": "HAIR",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-hair-long blond hair-default.png"
+            }
+          ]
+        },
+        "Dark Haircut": {
+          "name": "Dark Haircut",
+          "rarity": "rare",
+          "totalCount": 25,
+          "category": "HAIR",
+          "colors": [
+            {
+              "color": "blond",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-hair-dark haircut-blond.png"
+            },
+            {
+              "color": "blue",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-hair-dark haircut-blue.png"
+            },
+            {
+              "color": "red",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-hair-dark haircut-red.png"
+            },
+            {
+              "color": "purple",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-hair-dark haircut-purple.png"
+            },
+            {
+              "color": "grey",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-hair-dark haircut-grey.png"
+            },
+            {
+              "color": "green",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-hair-dark haircut-green.png"
+            },
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-hair-dark haircut-default.png"
+            }
+          ]
+        },
+        "Mojo Long Hair": {
+          "name": "Mojo Long Hair",
+          "rarity": "common",
+          "totalCount": 100,
+          "category": "HAIR",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-hair-mojo long hair-default.png"
+            }
+          ]
+        },
+        "Long Hair": {
+          "name": "Long Hair",
+          "rarity": "super",
+          "totalCount": 15,
+          "category": "HAIR",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-hair-long hair-default.png"
+            }
+          ]
+        },
+        "Basic Haircut": {
+          "name": "Basic Haircut",
+          "rarity": "legendary",
+          "totalCount": 10,
+          "category": "HAIR",
+          "colors": [
+            {
+              "color": "blond",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-hair-basic haircut-blond.png"
+            },
+            {
+              "color": "blue",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-hair-basic haircut-blue.png"
+            },
+            {
+              "color": "purple",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-hair-basic haircut-purple.png"
+            },
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-hair-basic haircut-default.png"
+            },
+            {
+              "color": "grey",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-hair-basic haircut-grey.png"
+            },
+            {
+              "color": "red",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-hair-basic haircut-red.png"
+            },
+            {
+              "color": "green",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-hair-basic haircut-green.png"
+            }
+          ]
+        },
+        "Chariot": {
+          "name": "Chariot",
+          "rarity": "good",
+          "totalCount": 40,
+          "category": "HAIR",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-hair-chariot-default.png"
+            }
+          ]
+        },
+        "Card Enthousiast": {
+          "name": "Card Enthousiast",
+          "rarity": "special",
+          "totalCount": 5,
+          "category": "HAIR",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-hair-card enthousiast-default.png"
+            }
+          ]
+        },
+        "Afro": {
+          "name": "Afro",
+          "rarity": "legendary",
+          "totalCount": 10,
+          "category": "HAIR",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-hair-afro-default.png"
+            }
+          ]
+        },
+        "Springfield_S Special": {
+          "name": "Springfield_S Special",
+          "rarity": "special",
+          "totalCount": 5,
+          "category": "HAIR",
+          "colors": [
+            {
+              "color": "grey",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-hair-Springfield_s Special-grey.png"
+            },
+            {
+              "color": "green",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-hair-Springfield_s Special-green.png"
+            },
+            {
+              "color": "purple",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-hair-Springfield_s Special-purple.png"
+            },
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-hair-Springfield_s Special-default.png"
+            },
+            {
+              "color": "blue",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-hair-Springfield_s Special-blue.png"
+            },
+            {
+              "color": "red",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-hair-Springfield_s Special-red.png"
+            },
+            {
+              "color": "blond",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-hair-Springfield_s Special-blond.png"
+            }
+          ]
+        },
+        "Baldness": {
+          "name": "Baldness",
+          "rarity": "good",
+          "totalCount": 40,
+          "category": "HAIR",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-hair-baldness-default.png"
+            }
+          ]
+        },
+        "Blond Bowl Cut": {
+          "name": "Blond Bowl Cut",
+          "rarity": "common",
+          "totalCount": 100,
+          "category": "HAIR",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-hair-blond bowl cut-default.png"
+            }
+          ]
+        },
+        "Crazy Diamond": {
+          "name": "Crazy Diamond",
+          "rarity": "special",
+          "totalCount": 5,
+          "category": "HAIR",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-hair-crazy diamond-default.png"
+            }
+          ]
+        },
+        "Messy Hair": {
+          "name": "Messy Hair",
+          "rarity": "legendary",
+          "totalCount": 10,
+          "category": "HAIR",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-hair-messy hair-default.png"
+            }
+          ]
+        },
+        "Pigtails": {
+          "name": "Pigtails",
+          "rarity": "legendary",
+          "totalCount": 10,
+          "category": "HAIR",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-hair-pigtails-default.png"
+            }
+          ]
+        },
+        "Samurai": {
+          "name": "Samurai",
+          "rarity": "legendary",
+          "totalCount": 10,
+          "category": "HAIR",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-hair-samurai-default.png"
+            }
+          ]
+        },
+        "Short Blond Hair": {
+          "name": "Short Blond Hair",
+          "rarity": "super",
+          "totalCount": 15,
+          "category": "HAIR",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-hair-short blond hair-default.png"
+            }
+          ]
+        },
+        "Dreadlocks": {
+          "name": "Dreadlocks",
+          "rarity": "super",
+          "totalCount": 15,
+          "category": "HAIR",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-hair-dreadlocks-default.png"
+            }
+          ]
+        },
+        "Middle Part": {
+          "name": "Middle Part",
+          "rarity": "good",
+          "totalCount": 40,
+          "category": "HAIR",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-hair-middle part-default.png"
+            }
+          ]
+        },
+        "Kawaii Haircut": {
+          "name": "Kawaii Haircut",
+          "rarity": "common",
+          "totalCount": 100,
+          "category": "HAIR",
+          "colors": [
+            {
+              "color": "default",
+              "file": "https://storage.googleapis.com/crypto-punk.appspot.com/accessories/man-hair-kawaii haircut-default.png"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

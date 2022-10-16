@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ElrondPunks</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon_io/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon_io/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon_io/favicon-16x16.png" />
+    <link rel="manifest" href="images/favicon_io/site.webmanifest" />
+    <meta name="theme-color" content="#1c44f3" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://elrondpunks.com/" />
+    <meta property="og:title" content="ElrondPunks" />
+    <meta property="og:description" content="elrondpunks" />
+    <meta property="og:image" content="https://elrondpunks.com/images/banner.png" />
+
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://elrondpunks.com/" />
+    <meta property="twitter:title" content="ElrondPunks" />
+    <meta property="twitter:description" content="elrondpunks" />
+    <meta property="twitter:image" content="https://elrondpunks.com/images/banner.png" />
+    <!-- 
+      initialize the SDK after all desired features are loaded, set useEmulator to false
+      to avoid connecting the SDK to running emulators.
+    -->
+
+    <style media="screen">
+      html {
+        background: #e9e9e9;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 1.2em;
+      }
+      .mb-4,
+      .mb-0,
+      .mb-3 {
+        color: #21252d;
+      }
+
+      a {
+        text-decoration: none !important;
+        color: inherit !important;
+      }
+      a:hover {
+        color: inherit !important;
+      }
+      * {
+        box-sizing: initial !important;
+      }
+      #root,
+      body,
+      html {
+        height: 100%;
+      }
+      #root {
+        background: white;
+      }
+      /* .mx-sm-3:nth-child(4) {
+        display: none;
+      } */
+      #message {
+        background: white;
+        max-width: 360px;
+        margin: 100px auto 16px;
+        padding: 32px 24px;
+        border-radius: 3px;
+      }
+      .bg-warning {
+        height: 80px;
+        display: flex;
+        width: 80px;
+        border-radius: 80px;
+        justify-content: center;
+        align-content: flex-start;
+        align-items: center;
+      }
+      #message h2 {
+        color: #ffa100;
+        font-weight: bold;
+        font-size: 16px;
+        margin: 0 0 8px;
+      }
+      #message h1 {
+        font-size: 22px;
+        font-weight: 300;
+        color: rgba(0, 0, 0, 0.6);
+        margin: 0 0 16px;
+      }
+      #message p {
+        line-height: 140%;
+        margin: 16px 0 24px;
+        font-size: 14px;
+      }
+      #message a {
+        display: block;
+        text-align: center;
+        background: #039be5;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: white;
+        padding: 16px;
+        border-radius: 4px;
+      }
+      #message,
+      #message a {
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+      }
+      #load {
+        color: rgba(0, 0, 0, 0.4);
+        text-align: center;
+        font-size: 13px;
+      }
+      .pagination {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin: 10px 0;
+      }
+      .pagination-li {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.3em;
+        color: black;
+        width: max-content;
+        /* font-weight: bold; */
+      }
+      .pagination-active {
+        color: #1c44f3 !important;
+      }
+      @media screen and (max-width: 1100px) {
+        .pagination {
+          display: flex;
+          width: -webkit-fill-available;
+          justify-content: space-between;
+        }
+        .dapp-core-ui-component:nth-child(3),
+        .dapp-core-ui-component:nth-child(4),
+        .dapp-core-ui-component:nth-child(5) {
+          display: none;
+        }
+      }
+      @keyframes spin {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+      @keyframes counter {
+        from {
+          color: #1c44f3;
+        }
+        to {
+          color: black;
+        }
+      }
+      .glitch,
+      .glow {
+        overflow: hidden;
+        position: relative;
+        animation: glitch 5s 2s infinite;
+      }
+      .glow {
+        color: #dfbfbf;
+      }
+      .glitch::before,
+      .glow::before {
+        content: 'Special ePunk';
+        position: absolute;
+        left: -3px;
+        text-shadow: -5px 0 rgb(0, 255, 255);
+        background: white;
+        overflow: hidden;
+        top: 0;
+        width: -webkit-fill-available;
+        animation: noise-1 2s linear infinite alternate-reverse, glitch 1s infinite;
+      }
+      .glitch::after,
+      .glow::after {
+        content: 'Special ePunk';
+        position: absolute;
+        left: 0px;
+        width: -webkit-fill-available;
+        text-shadow: -5px 0 rgb(89, 255, 139);
+        background: white;
+        overflow: hidden;
+        top: 0;
+        animation: noise-2 2s linear infinite alternate-reverse, glitch 1s infinite;
+      }
+      @keyframes glitch {
+        1% {
+          transform: rotateX(10deg) skewX(0deg);
+        }
+        2% {
+          transform: rotateX(0deg) skewX(0deg);
+        }
+      }
+      @keyframes noise-1 {
+        3.3333333333% {
+          clip-path: inset(1px 0 12px 0);
+        }
+        6.6666666667% {
+          clip-path: inset(8px 0 56px 0);
+        }
+        10% {
+          clip-path: inset(38px 0 22px 0);
+        }
+        13.3333333333% {
+          clip-path: inset(92px 0 5px 0);
+        }
+        16.6666666667% {
+          clip-path: inset(97px 0 2px 0);
+        }
+        20% {
+          clip-path: inset(67px 0 24px 0);
+        }
+        23.3333333333% {
+          clip-path: inset(74px 0 9px 0);
+        }
+        26.6666666667% {
+          clip-path: inset(10px 0 14px 0);
+        }
+        30% {
+          clip-path: inset(75px 0 18px 0);
+        }
+        33.3333333333% {
+          clip-path: inset(48px 0 12px 0);
+        }
+        36.6666666667% {
+          clip-path: inset(62px 0 11px 0);
+        }
+        40% {
+          clip-path: inset(18px 0 72px 0);
+        }
+        43.3333333333% {
+          clip-path: inset(16px 0 61px 0);
+        }
+        46.6666666667% {
+          clip-path: inset(30px 0 40px 0);
+        }
+        50% {
+          clip-path: inset(97px 0 1px 0);
+        }
+        53.3333333333% {
+          clip-path: inset(18px 0 20px 0);
+        }
+        56.6666666667% {
+          clip-path: inset(87px 0 7px 0);
+        }
+        60% {
+          clip-path: inset(73px 0 7px 0);
+        }
+        63.3333333333% {
+          clip-path: inset(22px 0 6px 0);
+        }
+        66.6666666667% {
+          clip-path: inset(49px 0 2px 0);
+        }
+        70% {
+          clip-path: inset(24px 0 42px 0);
+        }
+        73.3333333333% {
+          clip-path: inset(7px 0 82px 0);
+        }
+        76.6666666667% {
+          clip-path: inset(44px 0 33px 0);
+        }
+        80% {
+          clip-path: inset(15px 0 77px 0);
+        }
+        83.3333333333% {
+          clip-path: inset(83px 0 18px 0);
+        }
+        86.6666666667% {
+          clip-path: inset(100px 0 1px 0);
+        }
+        90% {
+          clip-path: inset(69px 0 31px 0);
+        }
+        93.3333333333% {
+          clip-path: inset(80px 0 2px 0);
+        }
+        96.6666666667% {
+          clip-path: inset(5px 0 66px 0);
+        }
+        100% {
+          clip-path: inset(92px 0 1px 0);
+        }
+      }
+      @keyframes noise-2 {
+        0% {
+          clip-path: inset(54px 0 30px 0);
+        }
+        3.3333333333% {
+          clip-path: inset(46px 0 33px 0);
+        }
+        6.6666666667% {
+          clip-path: inset(43px 0 42px 0);
+        }
+        10% {
+          clip-path: inset(20px 0 38px 0);
+        }
+        13.3333333333% {
+          clip-path: inset(2px 0 75px 0);
+        }
+        16.6666666667% {
+          clip-path: inset(30px 0 22px 0);
+        }
+        20% {
+          clip-path: inset(52px 0 31px 0);
+        }
+        23.3333333333% {
+          clip-path: inset(49px 0 18px 0);
+        }
+        26.6666666667% {
+          clip-path: inset(13px 0 35px 0);
+        }
+        30% {
+          clip-path: inset(9px 0 3px 0);
+        }
+        33.3333333333% {
+          clip-path: inset(1px 0 13px 0);
+        }
+        36.6666666667% {
+          clip-path: inset(95px 0 4px 0);
+        }
+        40% {
+          clip-path: inset(80px 0 17px 0);
+        }
+        43.3333333333% {
+          clip-path: inset(68px 0 3px 0);
+        }
+        46.6666666667% {
+          clip-path: inset(12px 0 19px 0);
+        }
+        50% {
+          clip-path: inset(71px 0 29px 0);
+        }
+        53.3333333333% {
+          clip-path: inset(53px 0 41px 0);
+        }
+        56.6666666667% {
+          clip-path: inset(74px 0 1px 0);
+        }
+        60% {
+          clip-path: inset(1px 0 38px 0);
+        }
+        63.3333333333% {
+          clip-path: inset(15px 0 66px 0);
+        }
+        66.6666666667% {
+          clip-path: inset(72px 0 27px 0);
+        }
+        70% {
+          clip-path: inset(50px 0 29px 0);
+        }
+        73.3333333333% {
+          clip-path: inset(97px 0 4px 0);
+        }
+        76.6666666667% {
+          clip-path: inset(79px 0 17px 0);
+        }
+        80% {
+          clip-path: inset(47px 0 48px 0);
+        }
+        83.3333333333% {
+          clip-path: inset(31px 0 48px 0);
+        }
+        86.6666666667% {
+          clip-path: inset(29px 0 35px 0);
+        }
+        90% {
+          clip-path: inset(91px 0 8px 0);
+        }
+        93.3333333333% {
+          clip-path: inset(96px 0 1px 0);
+        }
+        96.6666666667% {
+          clip-path: inset(80px 0 20px 0);
+        }
+        100% {
+          clip-path: inset(31px 0 47px 0);
+        }
+      }
+
+      .glow {
+        text-shadow: 0 0 1000px #dfbfbf;
+        color: transparent;
+        position: absolute;
+        top: 0;
+      }
+
+      @keyframes glitch-2 {
+        1% {
+          transform: rotateX(10deg) skewX(70deg);
+        }
+        2% {
+          transform: rotateX(0deg) skewX(0deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const loadEl = document.querySelector('#load');
+        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+        // // The Firebase SDK is initialized and available here!
+        //
+        // firebase.auth().onAuthStateChanged(user => { });
+        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
+        // firebase.firestore().doc('/foo/bar').get().then(() => { });
+        // firebase.functions().httpsCallable('yourFunction')().then(() => { });
+        // firebase.messaging().requestPermission().then(() => { });
+        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
+        // firebase.analytics(); // call to activate
+        // firebase.analytics().logEvent('tutorial_completed');
+        // firebase.performance(); // call to activate
+        //
+        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+
+        try {
+          let app = firebase.app();
+          let features = [
+            'auth',
+            'database',
+            'firestore',
+            'functions',
+            'messaging',
+            'storage',
+            'analytics',
+            'remoteConfig',
+            'performance'
+          ].filter(feature => typeof app[feature] === 'function');
+          loadEl.textContent = `Firebase SDK loaded with ${features.join(', ')}`;
+        } catch (e) {
+          console.error(e);
+          loadEl.textContent = 'Error loading the Firebase SDK, check the console.';
+        }
+      });
+    </script>
+  </body>
+</html>
